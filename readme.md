@@ -2,9 +2,7 @@
 📌 Overview
 
 This project demonstrates a production-style CI/CD pipeline for a containerized Node.js application deployed on AWS. The pipeline automates the entire lifecycle:
-
-Source → Build → Dockerize → Push → Deploy
-
+•	Source → Build → Dockerize → Push → Deploy 
 The system is designed using cloud-native, scalable, and automated DevOps practices, leveraging AWS managed services.
 
 🧱 Project Structure
@@ -31,9 +29,9 @@ SAMPLE-NODE-PROJECT/
 
 ⚙️ Tech Stack
 Application Layer
-Node.js (Express)
-EJS (Templating)
-CSS (Frontend Styling)
+•	Node.js (Express) 
+•	EJS (Templating) 
+•	CSS (Frontend Styling) 
 DevOps & Cloud
 AWS CodePipeline (CI/CD Orchestration)
 AWS CodeBuild (Build & Dockerization)
@@ -44,7 +42,6 @@ Docker (Containerization)
 
 🐳 Dockerization
 The application is containerized using a Dockerfile:
-
 Key Steps:
 Uses Node.js base image
 Installs dependencies
@@ -68,20 +65,18 @@ GitHub / CodeCommit
 
 🔧 Pipeline Stages Explained
 1. Source Stage
-Trigger: Git push
-Pulls latest code from repository
-
+•	Trigger: Git push 
+•	Pulls latest code from repository 
+ 
 2. Build Stage (CodeBuild)
 Handles:
-
-Dependency installation
-Docker image build
-Image tagging
-Push to ECR
-
+•	Dependency installation 
+•	Docker image build 
+•	Image tagging 
+•	Push to ECR 
 Controlled via:
 buildspec.yml
-
+ 
 3. Deploy Stage (ECS)
 Uses imagedefinitions.json
 Updates ECS service with latest image
