@@ -117,11 +117,11 @@ CPU / Memory utilization
 Alerts can be configured using SNS
 
 ⚠️ Common Pitfalls & Fixes
-Issue	                Cause	                          Fix
-Build fails	        Docker not enabled	          Enable privileged mode
-Image push fails	ECR auth issue	                  Check IAM permissions
-Deployment fails	Missing imagedefinitions.json	  Ensure buildspec generates it
-Service not updating	Wrong container name	          Match ECS task definition
+Issue	                Cause	                              Fix
+Build fails	          Docker not enabled	                Enable privileged mode
+Image push fails	    ECR auth issue	                    Check IAM permissions
+Deployment fails	    Missing imagedefinitions.json	      Ensure buildspec generates it
+Service not updating	Wrong container name	              Match ECS task definition
 
 🔥 Enhancements (Production-Level)
 Blue-Green Deployment (CodeDeploy)
