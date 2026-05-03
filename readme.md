@@ -165,7 +165,3 @@ Add caching in CodeBuild
 Integrate security scanning (Trivy / Snyk)
 Add rollback strategy
 Implement feature flags
-
-👨‍💻 Author
-Ronak Solanki
-DevOps & Cloud Enthusiast
