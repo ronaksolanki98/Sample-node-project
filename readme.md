@@ -8,26 +8,7 @@ Source → Build → Dockerize → Push → Deploy
 The system is designed using cloud-native, scalable, and automated DevOps practices, leveraging AWS managed services.
 
 🧱 Project Structure
-SAMPLE-NODE-PROJECT/
-│
-├── app/
-│   ├── public/styles/
-│   │   └── styles.css
-│   └── server/views/
-│       └── index.ejs
-│   └── routes.js
-│
-├── tests/
-│   └── app.test.js
-│
-├── app.js
-├── package.json
-├── package-lock.json
-├── Dockerfile
-├── buildspec.yml
-├── .dockerignore
-├── .gitignore
-└── README.md
+<img width="549" height="405" alt="image" src="https://github.com/user-attachments/assets/c5733a87-7675-4742-962a-62b348f82f7c" />
 
 ⚙️ Tech Stack
 Application Layer
