@@ -37,15 +37,8 @@ Run Locally:
 docker run -p 3000:3000 my-app
 
 🔄 CI/CD Pipeline Architecture
-GitHub / CodeCommit
-        ↓
-   CodePipeline
-        ↓
-    CodeBuild
-        ↓
-    Amazon ECR
-        ↓
-    Amazon ECS (Fargate)
+<img width="272" height="193" alt="image" src="https://github.com/user-attachments/assets/08a76e5b-f26b-4e7c-b038-35301bf177d8" />
+
 
 🔧 Pipeline Stages Explained
 
